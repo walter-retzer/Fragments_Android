@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Fragment_A">
+
+    <EditText
+        android:id="@+id/editText_nome"
+        style="@style/Edit_campos"
+        android:drawableRight="@drawable/ic_person"
+        android:hint="Nome"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText_Idade"
+        style="@style/Edit_campos"
+        android:drawableRight="@drawable/ic_calendar"
+        android:hint="Idade"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText_Email"
+        style="@style/Edit_campos"
+        android:drawableRight="@drawable/ic_email"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText_Senha"
+        style="@style/Edit_campos"
+        android:drawableRight="@drawable/ic_key"
+        android:hint="Senha"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText_Senha1"
+        style="@style/Edit_campos"
+        android:drawableRight="@drawable/ic_key"
+        android:hint="Confirmar Senha"
+        android:inputType="numberPassword"
+        android:textColorHint="@color/black"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/bt_cadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/lime_light"
+        android:text="Cadastrar"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+</LinearLayout>

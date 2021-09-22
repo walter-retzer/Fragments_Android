@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/cinza_l"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Fragment_A">
+
+    <EditText
+        android:id="@+id/et_fragment_b"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:background="@color/cinza_l"
+        android:visibility="visible" />
+
+</LinearLayout>
